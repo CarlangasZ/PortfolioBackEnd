@@ -1,4 +1,4 @@
-FROM amazoncorretto:19-alpine-jdk
+FROM amazoncorretto:17-alpine-jdk
 
 COPY target/PruebaPort-0.0.1-SNAPSHOT.jar app.jar
 
